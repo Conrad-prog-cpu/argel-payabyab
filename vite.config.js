@@ -6,5 +6,5 @@ import react from '@vitejs/plugin-react';
 // Vite must use only the repository folder as the base path, not the full URL.
 export default defineConfig({
   plugins: [react()],
-  base: '/argel-payabyab/'
+  base: '/'
 });
