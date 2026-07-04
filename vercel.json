@@ -1,7 +1,8 @@
 {
+  "framework": "vite",
+  "installCommand": "npm install --registry=https://registry.npmjs.org/ --production=false",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "framework": "vite",
   "rewrites": [
     {
       "source": "/(.*)",
